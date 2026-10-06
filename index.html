@@ -3,9 +3,9 @@
   <head>
     <!-- Page setup -->
     <meta charset="utf-8">
-    <title>Your title here</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="author" content="Information about the author here">
+    <title>Adam Henderson Portfolio</title>
+    <meta name="description" content="A portfolio site for a Cyber Security enthuisiast containing projects and CV">
+    <meta name="author" content="Adam Henderson is an aspiring Cyber Security professional with specific interests in Penetration testing and Malware Analysis">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/png" href="favicon.png">
   
@@ -29,13 +29,21 @@
 
     <header id="header">
       <img src="logo.png">
-      <h1>Simple Website</h1>
+      <h1>Adam Henderson Portfolio</h1>
       
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
+        <li><a href="#home">Home/About</a></li>
         <li><a href="#contact">contact</a></li>
+        <li><a href="#cv">CV/Resume</a></li>
+        <li class="dropdown">
+          <a>Portfolio/projects</a>
+          <ul class="dropdown-content">
+            <li><a href="#year3">3rd Year</a></li>
+            <li><a href="#year4">4th Year</a></li>
+            <li><a href="projects">Projects</a><li>
+          </ul>
+        </li>
       </ul>                 
     </header>
    
@@ -45,24 +53,53 @@
           
           <div id="home" class="content-region hide">
             <h2>Home</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
+            <h3>Education</h3>
+              <ul>
+                <li><b>2023 - 2027:</b> Predicted 1st for a BSc in Ethical Hacking (Cybersecurity) with honours at the University of Abertay Dundee</li>
+                <li><b>2017 - 2023</b> Attended Woodmill High School in Dunfermline</li>
+              </ul>
+            <h3>
+              <ul>
+                <li><b>2024 - Present:</b> Cyber in Schools Outreach (CISO) I volunteer as an ambassador to talk about Cyber Security in schools from Primary and Secondary students to share my passion about Cyber Security and hopefully inspire others like me</li>
+                <li><b>2025 - Present:</b> I work at Tesco Mobile as a sales assistant learning rules and regulations related to the FCA and OfCom among improving communcation and customer service skills</li>
+              </ul>
+            </h3>
           </div>
           
           <div id="contact" class="content-region hide">
             <h2>Contact</h2>
             <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
+              <b>Email: </b> Adam-Henderson05@outlook.com
+              <b>LinkedIn</b> https://www.linkedin.com/in/adam-hendoeh/
             </p>
           </div>
+          
+          <div id="cv" class="content-region hide">
+            <h2>CV</h2>
+            <p>
+              <li><a href="Files/AdamHendersonCV">CV/Resume</li>
+            </p>
+          </div>
+
+           <div id="year3" class="content-region hide">
+            <h2>Year 3</h2>
+              <h4>Malware Analysis: </h4>
+               <p><b>Grade Achieved: A+</b></p>
+               <p>We were given 3 samples of Malware to Analyse and then write a report on afterwards, I decided to choose the DarkKomet sample</p>
+               <a href="Files/Malware Analysis Final.pdf" class="padded-link">Malware Analysis Paper.pdf</a>
+              <h4>Web Application Hacking: </h4>
+               <p><b>Grade Achieved: B+</b></p>
+               <p>We were allocated a web application to perform a penetration test on and then write a white paper documenting our findings. I decided to follow the OWASP Web App penetration testing methodology</p>
+               <a href="Files/Web Application Penetration Test - Astley Store(1).pdf" class="padded-link">Web App Pen Test Paper.pdf</a>
+              <h4>Networking: </h4>
+               <p><b>Grade Achieved: B+</b></p>
+               <p>A fictitious company who's Network Administrator had left and taken all the information regarding the companies network, we were tasked with mapping, analysing and breaking into the network and reporting our findings in a report</p>
+               <a href="Files/Summative Network Assessment - Report.pdf" class="padded-link">Summative Network Assessment.pdf</a>
+              <h4>Python Scripting: </h4>
+               <p><b>Grade Achieved: A+</b></p>
+               <p>We were given free reign to create a Python Scripting project based on an area of Cybersecurity that interests us, I decided to create an automated Static Malware Analysis Tool</p>
+               <a href="Files/Staticfy.py white paper.pdf" class="padded-link">Python Scripting Project.pdf</a>
+           </div>
           
         </div>
       </div>
